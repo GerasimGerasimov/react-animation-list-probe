@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+@keyframes hello {
+  0% {
+    opacity: 0;
+    line-height: 0%;
+  }
+  100% {
+    opacity: 1;
+    line-height: 100%;
+  }
+}
+
+.new {
+  animation: hello 250ms ease 1 alternate;
+}
